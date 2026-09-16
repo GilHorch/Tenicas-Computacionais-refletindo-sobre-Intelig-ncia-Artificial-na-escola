@@ -27,28 +27,22 @@ const perguntas = [
         ]
     },
     {
-        enunciado: "Com a descoberta desta tecnologia, chamada Inteligência 
-        Artificial (IA), uma professora de tecnologia da escola decidiu 
-        fazer uma sequência de aulas sobre ela IA. No fim de uma aula ela 
-        pede que você escreva um trabalho sobre o uso de tecnologia em 
-        sala de aula. Qual atitude você toma?",
+        enunciado: "Com a descoberta desta tecnologia, chamada Inteligência Artificial (IA), uma professora de tecnologia da escola decidiu fazer uma sequência de aulas sobre ela IA. No fim de uma aula ela pede que você escreva um trabalho sobre o uso de tecnologia em sala de aula. Qual atitude você toma?",
 
         alternativas: [
             {
-                texto:"Utilizar uma ferramenta de busca na internet que utiliza IA 
-                para que ela ajude a encontrar informações relevantes para o trabalho 
-                e explique numa linguagem que facilite o entendimento",
+                texto:"Utilizar uma ferramenta de busca na internet que utiliza IA para que ela ajude a encontrar informações relevantes para o trabalho e explique numa linguagem que facilite o entendimento",
                 afirmacao:[
-                    "Você acredita que as ferrementas de busca utuilizando IA acilitam a apredizagem.",
-                    "Além de facilitar a aprendizagem A IA torna o trabalho mais ágil"
-
-
+                    "Você acredita que as ferrementas de busca utuilizando IA facilitam a apredizagem.",
+                    "Além de facilitar a aprendizagem a IA torna o trabalho mais ágil"
                 ]
             },
             {
-                texto: "Escrever o trabalho com base nas conversas que teve com colegas, 
-                algumas pesquisas na internet e conhecimentos próprios sobre o tema.",
-                afirmacao:"afirmacao"
+                texto: "Escrever o trabalho com base nas conversas que teve com colegas, algumas pesquisas na internet e conhecimentos próprios sobre o tema.",
+                afirmacao:[
+                    "afirmacao",
+                    "afirmação"
+                ]
             }
         ]
     },
