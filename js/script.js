@@ -53,5 +53,5 @@ function jogarNovamente(){
     historiaFinal="";
     caixaResultado.classList.remove(mostrar); 
     mostraPergunta();
-
+}
 mostraPergunta();
