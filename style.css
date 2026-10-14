@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
 
 :root{
     --cor-fundo: #01080E ;
@@ -11,6 +13,7 @@
 body {
     background-color: var(--cor-fundo);
     color: var(--cor-texto);
+    font-family: "Ubuntu", sans-serif;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -29,6 +32,10 @@ h1{
     color: var(--cor-destaque);
 }
 
+h1, .caixa-perguntas, .caixa-resultado{
+    font-family: "Ubuntu", sans-serif;
+}
+
 button {
     background-color: var(--cor-secundaria);
     color: var(--cor-texto);
@@ -41,4 +48,15 @@ button {
 button:hover{
     background-color: var(--cor-destaque);
     color: var(--cor-principal);
+}
+.caixa-alternativas{
+    display: flex;
+    flex-direction: column;
+}
+
+.caixa-resultado{
+    display: none;
+}
+.caixa-resultado .mostrar{
+    display: block;
 }
