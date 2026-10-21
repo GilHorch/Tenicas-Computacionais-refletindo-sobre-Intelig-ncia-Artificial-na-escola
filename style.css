@@ -58,6 +58,6 @@ button:hover{
 .caixa-resultado{
     display: none;
 }
-.caixa-resultado .mostrar{
+.caixa-resultado.mostrar{
     display: block;
 }
