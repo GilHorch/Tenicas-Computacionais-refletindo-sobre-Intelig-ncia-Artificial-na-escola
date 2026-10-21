@@ -1,4 +1,4 @@
-import { aleatorio } from "./aleatorio.js";
+import { aleatorio } from "js/aleatorio";
 import {perguntas} from "./perguntas.js";
 
 
