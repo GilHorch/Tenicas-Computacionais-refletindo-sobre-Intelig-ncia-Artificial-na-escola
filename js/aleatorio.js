@@ -6,8 +6,8 @@ export function aleatorio (lista){
         return lista[posicao];
 }
 
-//export const nome= aleatorio(nomes);
+const nome= aleatorio(nomes);
 
-export { nomes };
+export { nome };
 
 
