@@ -57,12 +57,11 @@ function jogarNovamente(){
     caixaResultado.classList.remove(mostrar); 
     mostraPergunta();
 }
- function substituiNome(){
-for (const pergunta of perguntas) {
-   pergunta.enunciado=pergunta.enunciado.replace(/você/g,nome) 
+function substituiNome(){
+for(const pergunta of perguntas){
+pergunta.enunciado = pergunta.enunciado.replace(/você/g, nome);
+    }
 }
-
- }
  
 substituiNome();
 mostraPergunta();
