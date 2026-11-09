@@ -1,5 +1,5 @@
 //import { aleatorio,nome } from "./aleatorio.js";//Linha alterada    07-11
-import { aleatorio, nomes } from "./aleatorio.js";
+import { aleatorio, nomes,nome } from "./aleatorio.js";
 import {perguntas} from "./perguntas.js";
 
 
