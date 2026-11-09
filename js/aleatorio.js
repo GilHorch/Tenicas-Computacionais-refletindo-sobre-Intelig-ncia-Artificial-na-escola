@@ -8,6 +8,6 @@ export function aleatorio (lista){
 
 const nome= aleatorio(nomes);
 
-export { nome };
+export { nomes };
 
 
