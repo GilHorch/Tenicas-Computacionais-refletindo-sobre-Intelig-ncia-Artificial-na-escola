@@ -39,7 +39,7 @@ function mostraAlternativas(){
 
 function respostaSelecionada(opcaoSelecionada){
         const afirmacao = aleatorio(opcaoSelecionada.afirmacoes); //Alteração 18-11
-        historiaFinal += afirmacoes + " ";
+        historiaFinal += afirmacao + " ";
         atual++;
         mostraPergunta();
 }
