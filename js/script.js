@@ -38,8 +38,8 @@ function mostraAlternativas(){
 }
 
 function respostaSelecionada(opcaoSelecionada){
-        const afirmacao = aleatorio(opcaoSelecionada.afirmacoes); //Alteração 18-11
-        historiaFinal += afirmacao + " ";
+        const afirmacoes = aleatorio(opcaoSelecionada.afirmacoes); //Alteração 18-11
+        historiaFinal += afirmacoes + " ";
         atual++;
         mostraPergunta();
 }
