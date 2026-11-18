@@ -38,7 +38,7 @@ function mostraAlternativas(){
 }
 
 function respostaSelecionada(opcaoSelecionada){
-        const afirmacoes = aleatorio(opcaoSelecionada.afirmacao);
+        const afirmacao = aleatorio(opcaoSelecionada.afirmacoes); //Alteração 18-11
         historiaFinal += afirmacoes + " ";
         atual++;
         mostraPergunta();
