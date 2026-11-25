@@ -41,6 +41,15 @@ function respostaSelecionada(opcaoSelecionada){
         const afirmacoes = aleatorio(opcaoSelecionada.afirmacoes); //Alteração 18-11
         historiaFinal += afirmacoes + " ";
         atual++;
+
+if(opcaoSelecionada.proxima!=undefined){
+    atual=opcaoSelecionada.proxima;
+}
+else{
+    mostraResultado();
+    return;
+}
+
         mostraPergunta();
 }
 
