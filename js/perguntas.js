@@ -7,14 +7,16 @@ export const perguntas = [
                 afirmacoes: [
                     "Uma tecnologia capaz de criar conteúdos tão realistas pode ser utilizada de maneiras que ainda não conseguimos prever.",
                     "É preciso ter cuidado, pois nem sempre aquilo que uma Inteligência Artificial produz representa informações verdadeiras."
-                ]
+                ],
+                proxima:1,
             },
             {
                 texto: "Isso é maravilhoso!",
                 afirmacoes: [
                     "Uma tecnologia capaz de responder dúvidas e produzir diferentes tipos de conteúdo pode ajudar as pessoas em diversas atividades.",
                     "A Inteligência Artificial pode abrir novas possibilidades para aprender, criar e resolver problemas."
-                ]
+                ],
+            proxima:2,
             }
         ]
     },
@@ -27,14 +29,16 @@ export const perguntas = [
                 afirmacoes: [
                     "A Inteligência Artificial pode ser utilizada como uma ferramenta para auxiliar na pesquisa e na compreensão de novos conteúdos.",
                     "Mesmo utilizando a IA, é importante verificar as informações encontradas e compreender aquilo que será utilizado no trabalho."
-                ]
+                ],
+                proxima:3,
             },
             {
                 texto: "Escrever o trabalho com base nas conversas que teve com colegas, em algumas pesquisas na internet e nos conhecimentos que possui sobre o tema.",
                 afirmacoes: [
                     "Pesquisar em diferentes fontes e conversar com outras pessoas pode ajudar a ampliar os conhecimentos sobre determinado assunto.",
                     "Utilizar os próprios conhecimentos permite construir um trabalho com ideias e interpretações pessoais."
-                ]
+                ],
+                proxima:4,
             }
         ]
     },
@@ -47,14 +51,16 @@ export const perguntas = [
                 afirmacoes: [
                     "A utilização de máquinas e sistemas de Inteligência Artificial pode modificar a maneira como algumas atividades profissionais são realizadas.",
                     "É importante pensar em formas de preparar e proteger os trabalhadores diante das transformações provocadas pelas novas tecnologias."
-                ]
+                ],
+                proxima:5,
             },
             {
                 texto: "Você defende a ideia de que a IA pode criar novas oportunidades de emprego e ajudar a melhorar as habilidades humanas.",
                 afirmacoes: [
                     "O surgimento de novas tecnologias também pode criar novas profissões e transformar as atividades existentes.",
                     "A utilização da Inteligência Artificial pode ajudar as pessoas a desenvolver novas habilidades e realizar determinadas tarefas."
-                ]
+                ],
+                proxima:6,
             }
         ]
     },
@@ -67,14 +73,16 @@ export const perguntas = [
                 afirmacoes: [
                     "Você pode utilizar suas próprias habilidades de desenho para representar visualmente aquilo que pensa sobre a Inteligência Artificial.",
                     "A criação manual permite escolher diretamente cada elemento da imagem e construir uma representação própria."
-                ]
+                ],
+                proxima:7,
             },
             {
                 texto: "Criar uma imagem utilizando um gerador de imagens de Inteligência Artificial.",
                 afirmacoes: [
                     "Um gerador de imagens por IA pode transformar uma descrição escrita em uma representação visual.",
                     "A ferramenta permite experimentar diferentes ideias e possibilidades para representar aquilo que você pensa sobre a Inteligência Artificial."
-                ]
+                ],
+                proxima:8,
             }
         ]
     },
@@ -87,14 +95,16 @@ export const perguntas = [
                 afirmacoes: [
                     "Mesmo sendo uma tecnologia avançada, a Inteligência Artificial pode apresentar erros ou informações que precisam ser verificadas.",
                     "Revisar o conteúdo e acrescentar as ideias e conhecimentos dos integrantes do grupo torna o trabalho mais autoral e significativo."
-                ]
+                ],
+                proxima:9,
             },
             {
                 texto: "Você considera que escrever comandos para o chat já é uma forma de contribuir com o trabalho e entende que não há problema em utilizar o texto inteiro produzido pela Inteligência Artificial.",
                 afirmacoes: [
                     "Elaborar comandos para uma Inteligência Artificial exige que o usuário saiba explicar aquilo que deseja obter.",
                     "A utilização de um texto produzido pela IA pode facilitar a realização do trabalho, mesmo quando o conteúdo é utilizado praticamente sem alterações."
-                ]
+                ],
+                proxima:10,
             }
         ]
     }
