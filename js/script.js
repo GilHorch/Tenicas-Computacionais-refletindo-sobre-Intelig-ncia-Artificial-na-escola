@@ -11,11 +11,21 @@ const textoResultado = document.querySelector(".texto-resultado");
 const botaoJogarNovamente=document.querySelector(".novamente-btn");
 
 const nomeSorteado = aleatorio(nomes);//Adicionado 07-11
-
+const botaoIniciar=document.querySelector(".iniciar-btn");
+const telaInicial=document.querySelector("tela-inicial");
 
 let atual = 0; 
 let perguntaAtual;
 let historiaFinal = "";
+
+botaoIniciar.addEventListener('click',iniciaJogo);
+
+function iniciaJogo(){
+atual=0;
+historiaFinal="";
+telaInicial.style.display='none';
+perguntas.classList.remove("mostrar");
+}
 
 function mostraPergunta() {
     if(atual >= perguntas.length){
